@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B859907C-44B5-4357-B3C5-45B8003C4BD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4A217095-F474-4880-9BF0-84D9A8FD82C5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthorizationDemo", "src\AuthorizationDemo\AuthorizationDemo.xproj", "{E7F64906-7818-49C3-BA55-5800848ECF76}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AuthorizationDemoTests", "test\AuthorizationDemoTests\AuthorizationDemoTests.xproj", "{BC6E779C-88F8-4AE1-B0FA-F34388B0E774}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F64906-7818-49C3-BA55-5800848ECF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F64906-7818-49C3-BA55-5800848ECF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F64906-7818-49C3-BA55-5800848ECF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F64906-7818-49C3-BA55-5800848ECF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6E779C-88F8-4AE1-B0FA-F34388B0E774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6E779C-88F8-4AE1-B0FA-F34388B0E774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6E779C-88F8-4AE1-B0FA-F34388B0E774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6E779C-88F8-4AE1-B0FA-F34388B0E774}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7F64906-7818-49C3-BA55-5800848ECF76} = {B859907C-44B5-4357-B3C5-45B8003C4BD7}
+		{BC6E779C-88F8-4AE1-B0FA-F34388B0E774} = {B859907C-44B5-4357-B3C5-45B8003C4BD7}
+	EndGlobalSection
+EndGlobal

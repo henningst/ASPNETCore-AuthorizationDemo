@@ -6,4 +6,4 @@ This repository contains an ASP.NET Core solution demonstrating how you can impl
 
 The solution contains a webapp using MVC and a Test project using xUnit. The test project shows how you can unit test your authorization handlers.
 
-You can read some more details in my blog post on http://blog.stoverud.no/how-to-unit-test-asp-net-core-authorizationhandler/.
+You can read some more details in my blog post on http://blog.stoverud.no/posts/how-to-unit-test-asp-net-core-authorizationhandler/.
